@@ -6,10 +6,10 @@ import gensim
 st.title('映画レコメンド')
 
 # 映画評価データの読み込み
-movielens = pd.read_csv("movielens.tsv", sep="\t")
+movielens = pd.read_csv("data/movielens.tsv", sep="\t")
 
 # 学習済みのitem2vecモデルの読み込み
-model = gensim.models.word2vec.Word2Vec.load("item2vec.model")
+model = gensim.models.word2vec.Word2Vec.load("data/item2vec.model")
 
 # 映画評価データの確認
 st.write("映画評価データ(確認用)")
