@@ -5,7 +5,7 @@ import gensim
 
 st.title('映画レコメンド')
 
-# 映画評価データの読み込み
+# 映画情報の読み込み
 movies = pd.read_csv("data/movies.tsv", sep="\t")
 
 # 学習済みのitem2vecモデルの読み込み
