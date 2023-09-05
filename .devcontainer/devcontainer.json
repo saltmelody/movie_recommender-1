@@ -8,3 +8,4 @@
       "terminal.integrated.shell.linux": "/bin/bash",
       "python.pythonPath": "./venv/bin/python"
     },
+}
